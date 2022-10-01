@@ -29,7 +29,6 @@ html,body{
   background: -moz-linear-gradient(top, rgb(75, 75, 75) 0%, rgba(255, 255, 255, 0.6)100%);
 	width:1px;
 	height:70px;
-	position: absolute;
 	-webkit-animation: fall .40s linear infinite;
 	position: fixed;
 }
