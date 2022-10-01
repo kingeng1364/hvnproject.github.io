@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Heaven</title>
-    <link rel="stylesheet" media="screen" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/img/shurt_icon.ico" type="image/png"> 
-  </head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Heaven</title>
+        
+        <link rel="stylesheet" media="screen" href="./assets/css/style.css">
+        <link rel="shortcut icon" href="./assets/img/shurt_icon.ico" type="image/png"> 
 
-  <body onclick="ontextclick()">
-    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </head>
 
-    <div id="particles-js"></div>
-
-    <script src="./assets/js/particles.js"></script>
-    <script src="./assets/js/app.js"></script>
-
-    <script>
-      function ontextclick(){
-        window.open("https://hvnproject.github.io/assets/loader/Loader.exe","_self")
-      }
-    </script>
-
-  </body>
+    <body onload="createRain();", onclick="onbodyclick()">
+        <section class="rain"></section>
+    </body>
 </html>
